@@ -27,6 +27,11 @@ h3 {
     color: #252522;
 }
 
+.hidden-heading {
+    display: none;
+
+}
+
 /*Header*/
 header {
     background-color: #ffffff;
@@ -177,6 +182,7 @@ main {
     Each div will expand to fill the availabe space on its row*/
     flex-basis: 200px;
     flex-grow: 1;
+    /*Created a gird of meetup time divses over the background image*/
     border: 2px solid white;
 }
 
